@@ -4,8 +4,8 @@ class LeakyBucket {
     public static void main(String[] args) {
 
         int bucket_rem = 0;      // current content in bucket
-        int bucket_cap = 3;      // bucket capacity
-        int rate = 3;            // leak rate (per second)
+        int bucket_cap = 5;      // bucket capacity
+        int rate = 2;            // leak rate (per second)
 
         Scanner sc = new Scanner(System.in);
 
